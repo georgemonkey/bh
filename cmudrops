@@ -1,0 +1,3 @@
+let textarea = document.querySelector('textarea');
+insert text here
+textarea.dispatchEvent(new Event('input'));
